@@ -1,14 +1,14 @@
 
-## use shell commands to log memory usage of the process in Android :
+### use shell commands to log memory usage of the process in Android :
 
 ```
 adb shell cat /proc/meminfo
 adb shell procrank
 ```
 
-<br />
 
-## build procrank into system iamge :
+
+### build procrank into system iamge :
 
 procrank :  <http://androidxref.com/9.0.0_r3/xref/system/extras/procrank/>
 
