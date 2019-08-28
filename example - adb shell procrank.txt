@@ -1,0 +1,70 @@
+adb shell procrank
+warning: could not create process interface for 6609
+  PID       Vss      Rss      Pss      Uss     Swap    PSwap    USwap    ZSwap  cmdline
+ 1147  1777836K  161840K   72305K   63348K    3996K     125K       0K      35K  com.google.android.googlequicksearchbox:search
+  521  1750976K  154016K   72166K   66668K    6428K    2639K    2516K     748K  system_server
+ 5596  1108640K  173304K   61420K   45392K    4124K     130K       0K      37K  com.google.android.gms.persistent
+  658  1204784K  142696K   58723K   52536K    5156K    1370K    1248K     388K  com.android.systemui
+ 5642  1238568K  163724K   52854K   36932K    4124K     131K       0K      37K  com.google.android.gms
+ 5237  1543440K  101056K   35600K   33292K    4236K     138K       0K      39K  com.google.android.apps.photos
+ 5611  1071368K  119628K   33847K   23824K    4208K     135K       0K      38K  com.android.vending
+ 3364  1560348K  106824K   33257K   29576K    4152K     132K       0K      37K  com.google.android.talk
+ 6257  1068496K  113268K   31468K   26564K    4196K     134K       0K      38K  com.google.android.apps.docs
+ 1086  1143280K  107692K   27455K   22588K    3968K     124K       0K      35K  com.google.android.setupwizard
+ 4412  1155456K  114004K   27077K   18764K    4004K     126K       0K      35K  com.android.launcher3
+ 6113  1189064K  121480K   20994K   12252K    4120K     132K       0K      37K  com.google.android.gms.unstable
+  624  1124072K   89876K   16861K   13204K    5028K    1134K    1008K     321K  com.android.inputmethod.latin
+ 5440  1006100K   93088K   15710K    6688K    4268K     139K       0K      39K  com.android.vending:instant_app_installer
+ 5853  1042196K  106004K   14915K    7136K    4268K     138K       0K      39K  com.google.android.gms.ui
+ 5919  1033748K  102660K   13456K    6212K    4260K     138K       0K      39K  <unknown>
+ 1185   986108K   86376K   12907K    9472K    4084K     129K       0K      36K  android.process.media
+ 5933  1032100K  100704K   12620K    5708K    4284K     140K       0K      39K  com.google.android.gms.feedback
+  914   992736K   80152K   12143K    9356K    4256K     255K     124K      72K  com.android.phone
+ 1057  1557628K   80104K   11762K    5984K    4304K     171K       0K      48K  com.google.android.googlequicksearchbox:interactor
+ 5893   998472K   83320K   11251K    4240K    4320K     146K       0K      41K  <unknown>
+ 1303   985540K   79392K   11171K    8404K    4252K     142K       0K      40K  android.process.acore
+ 1071   996644K   78284K   10292K    7460K    4088K     129K       0K      36K  com.android.nfc
+ 1241   987056K   72432K    8177K    5704K    4236K     141K       0K      40K  com.google.process.gapps
+ 6480   971104K   70112K    7175K    4664K    4312K     143K       0K      40K  com.android.calendar
+  231  1416184K   81144K    7153K    2856K    4960K     688K     488K     195K  zygote
+ 6339   968944K   62800K    5982K    4116K    4340K     149K       0K      42K  com.google.android.configupdater
+ 3325   971380K   65324K    5768K    3676K    4332K     146K       0K      41K  com.google.process.gapps
+ 5196   969328K   63744K    5612K    3688K    4332K     147K       0K      41K  com.google.android.partnersetup
+ 6449   967404K   65128K    5571K    3548K    4260K     140K       0K      39K  com.android.providers.calendar
+ 5163   970588K   61824K    4833K    2952K    4360K     153K       0K      43K  com.android.printspooler
+ 1006   964420K   59956K    4528K    2640K    4328K     184K      32K      52K  com.google.android.ext.services
+  222   187512K    9776K    3450K    2924K    5428K    5428K    5428K    1538K  /system/bin/surfaceflinger
+  244    44792K    9188K    2887K    2568K     916K     916K     916K     259K  media.extractor
+  199    13860K    4504K    2880K    2832K     336K     336K     336K      95K  /system/bin/logd
+  245    56948K    9660K    2593K    2088K    1132K    1132K    1132K     320K  /system/bin/mediaserver
+  242    30260K    8040K    2583K    2320K    1316K    1316K    1316K     373K  media.codec
+ 6611     8024K    3568K    2076K    2020K       0K       0K       0K       0K  procrank
+  232    37256K    6624K    1765K    1552K    1256K    1256K    1256K     356K  /system/bin/audioserver
+ 5414    30788K    1084K    1043K    1040K       0K       0K       0K       0K  /sbin/adbd
+  623     8096K    4068K     726K     612K     428K     428K     428K     121K  /system/bin/wpa_supplicant
+  247    20300K    3440K     718K     640K     476K     476K     476K     134K  /system/bin/netd
+  237   153900K    5892K     627K     400K    1308K    1308K    1308K     370K  /system/bin/cameraserver
+    1     7352K     856K     572K     464K     376K     376K     376K     106K  /init
+  241     7488K    3772K     567K     480K     360K     360K     360K     102K  /system/bin/keystore
+  652     8244K    2228K     543K     508K     912K     912K     912K     258K  /system/bin/sdcard
+  239    15980K    5296K     537K     372K     872K     872K     872K     247K  /system/bin/drmserver
+  218     3124K     520K     484K     484K      40K      40K      40K      11K  /sbin/healthd
+  240     5092K    2752K     451K     380K     296K     296K     296K      83K  /system/bin/installd
+  219     3552K    1752K     376K     348K     176K     176K     176K      49K  /system/bin/sh
+  207    11812K    3516K     344K     240K     840K     840K     840K     238K  /system/bin/vold
+  243    19176K    6100K     294K       8K    1468K    1468K    1468K     416K  /system/bin/mediadrmserver
+  250     4108K    2096K     284K     244K     232K     232K     232K      65K  /system/xbin/perfprofd
+  183     2948K     516K     280K     184K     108K     108K     108K      30K  /sbin/ueventd
+  249     7248K    3092K     265K     196K     400K     400K     400K     113K  /system/bin/gatekeeperd
+  221     4860K    2304K     236K     188K     268K     268K     268K      75K  /system/bin/servicemanager
+  220     4572K    2228K     231K     188K     324K     324K     324K      91K  /system/bin/lmkd
+  230     5252K    2512K     189K     140K     344K     344K     344K      97K  /system/bin/rild
+  188     2272K     272K      92K       8K      96K      96K      96K      27K  /sbin/watchdogd
+  246     9684K    2320K      71K      24K     504K     504K     504K     142K  /system/bin/msiServer
+  206     5352K    2208K      56K       4K     416K     232K      48K      65K  /system/bin/debuggerd
+  210     5096K     480K      12K       4K     416K     232K      48K      65K  debuggerd:signaller
+                           ------   ------   ------   ------   ------   ------  ------
+                          752316K  572904K  160628K   30562K   25724K    8663K  TOTAL
+
+ZRAM: 9380K physical used for 33092K in swap (307196K total swap)
+ RAM: 2051380K total, 277120K free, 22348K buffers, 1055000K cached, 3400K shmem, 44300K slab

@@ -1,0 +1,26 @@
+From 10c0d8c2b4a4e29367a67f91822a7cdb19afe4b5 Mon Sep 17 00:00:00 2001
+From: ting sung <ting.skt.e@gmail.com>
+Date: Wed, 28 Aug 2019 14:50:48 +0800
+Subject: [PATCH] build procrank into system image
+
+Change-Id: I6c177dc09f93c5d1744663652fe54e69ce5af4d6
+---
+ qemu_base.mk | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/qemu_base.mk b/qemu_base.mk
+index eadb5a9..4b11f22 100644
+--- a/qemu_base.mk
++++ b/qemu_base.mk
+@@ -122,5 +122,8 @@ PRODUCT_COPY_FILES += \
+ PRODUCT_PROPERTY_OVERRIDES += \
+     ro.carrier=unknown
+ 
++# add procrank
++PRODUCT_PACKAGES += procrank
++
+ $(call inherit-product, $(SRC_TARGET_DIR)/product/runtime_libart.mk)
+ 
+-- 
+2.7.4
+

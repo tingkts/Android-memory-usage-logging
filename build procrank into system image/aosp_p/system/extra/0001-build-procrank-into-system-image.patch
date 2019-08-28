@@ -1,0 +1,24 @@
+From ec007c023cc8753e30619536f65ea27cc239d3bf Mon Sep 17 00:00:00 2001
+From: ting sung <ting.skt.e@gmail.com>
+Date: Wed, 28 Aug 2019 14:36:47 +0800
+Subject: [PATCH] build procrank into system image
+
+Change-Id: If005639c499ea2c2dd22a3cf74ef968cf508d22e
+---
+ procrank/Android.mk | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/procrank/Android.mk b/procrank/Android.mk
+index 8a235fd..db1a8c7 100644
+--- a/procrank/Android.mk
++++ b/procrank/Android.mk
+@@ -20,5 +20,5 @@ LOCAL_CFLAGS := -Wall -Wextra -Wformat=2 -Werror
+ LOCAL_SHARED_LIBRARIES := libpagemap libbase
+ LOCAL_MODULE := procrank
+ LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
+-LOCAL_MODULE_TAGS := debug
++LOCAL_MODULE_TAGS := optional
+ include $(BUILD_EXECUTABLE)
+-- 
+2.7.4
+
